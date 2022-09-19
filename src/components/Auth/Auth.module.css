@@ -1,0 +1,51 @@
+.auth {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.body {
+  padding: 50px;
+  background-color: #fff;
+  position: relative;
+}
+.body form {
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  margin-bottom: 30px;
+  border: 2px solid black;
+  padding: 10px;
+}
+.btn {
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+
+form .input + .btn {
+  margin-bottom: 10px;
+}
+
+.acc {
+  position: absolute;
+  top: -150px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.acc div {
+  margin-bottom: 2px;
+  font-size: 20px;
+}

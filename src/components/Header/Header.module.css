@@ -1,0 +1,12 @@
+.header {
+  width: 100%;
+  padding: 30px;
+  background-color: #062e85;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+.header a {
+  color: #ade749;
+  font-size: 30px;
+}

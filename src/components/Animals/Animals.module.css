@@ -1,0 +1,9 @@
+.animBody {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -30px;
+  width: 100%;
+}
+.test {
+  height: 300px;
+}
